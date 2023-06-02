@@ -8,5 +8,6 @@ namespace _1semesterprojektdrengegruppen.Services
 {
     internal class Wares
     {
+
     }
 }
