@@ -1,10 +1,12 @@
-﻿using _230313_SYS_Warehouse_2.Models;
+﻿using _1semesterprojektdrengegruppen.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+
 
 namespace _230313_SYS_Warehouse_2.Services
 {
@@ -19,7 +21,7 @@ namespace _230313_SYS_Warehouse_2.Services
         /// Creates an instance of the class Product within the database
         /// </summary>
         /// <param name="product"></param>
-        public static void CreateProduct(Models.Product product)
+        public static void CreateProduct(Product product)
         {
             SqlConnection conn = new SqlConnection(strconn);
 
@@ -60,7 +62,7 @@ namespace _230313_SYS_Warehouse_2.Services
         /// </summary>
         /// <param name="editedNum"></param>
         /// <param name="updateProduct"></param>
-        public static void UpdateProduct(int editedNum, Models.Product updateProduct)
+        public static void UpdateProduct(int editedNum, Product updateProduct)
         {
             SqlConnection conn = new SqlConnection(strconn);
 
@@ -118,7 +120,7 @@ namespace _230313_SYS_Warehouse_2.Services
         /// Creates an instance of the class Customer within the database
         /// </summary>
         /// <param name="customer"></param>
-        public static void CreateCustomer(Models.CustomerModel customer)
+        public static void CreateCustomer(CustomerModel customer)
         {
             SqlConnection conn = new SqlConnection(strconn);
 
