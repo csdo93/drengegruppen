@@ -161,7 +161,7 @@ namespace _230313_SYS_Warehouse_2.Services
         /// </summary>
         /// <param name="editedNum"></param>
         /// <param name="updateCustomer"></param>
-        public static void UpdateProduct(int editedNum, Models.CustomerModel updateCustomer)
+        public static void UpdateProduct(int editedNum, CustomerModel updateCustomer)
         {
             SqlConnection conn = new SqlConnection(strconn);
 
