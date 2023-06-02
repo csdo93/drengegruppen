@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1semesterprojektdrengegruppen.Models
 {
-    internal class Product
+    public class Product
     {
         public int ProductNumber { get; set; }
         public string ProductName { get; set; }
