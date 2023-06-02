@@ -14,7 +14,7 @@ namespace _230313_SYS_Warehouse_2.Services
     public class Database
     {
         // Conntects to the database 
-        static string strconn = "Data Source=mssql6.unoeuro.com;Initial Catalog=mssql6.csdo_dk_db_datamatiker;User ID=csdo_dk;Password=Ecy325kRAHbxham6G94f";
+        static string strconn = "Data Source=mssql6.unoeuro.com;Initial Catalog=csdo_dk_db_datamatiker;User ID=csdo_dk;Password=Ecy325kRAHbxham6G94f";
 
 
         /// <summary>
